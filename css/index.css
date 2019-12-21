@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #50E3C2 10%, #91EA63) fixed;
+}
+
+/* abacus_body start */
+.abacus_body {
+    width: 250px;
+    height: 380px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 1px #6DC86B;
+    background: url(../image/img_02.png) no-repeat ;
+    background-color: #fff;
+}
+
+/* abacus_screen start */
+.abacus_screen {
+    height: 100px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: right;
+    background: transparent;
+    color: #50E3C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.abacus_screen h2 {
+    font-size: 50px;
+}
+
+.abacus_button table {
+    border-collapse: collapse;
+}
+
+
+/* abacus_button start */
+.abacus_button td {
+    width: 80px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+.abacus_button button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    flex-wrap: bold;
+    background-color: #50E3AB;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.abacus_button .btncolorOne {
+    background-color: #91EA63;
+    box-shadow: 0 0 12px 3px rgb(125, 202, 86) inset;
+}
+
+.abacus_button .btncolorTwo {
+    background-color: #FD9A3E;
+    box-shadow: 0 0 12px 3px rgb(214, 130, 51) inset;
+}
+
+.btnbyAc {
+    box-shadow: 14px 14px 10px -8px rgb(69, 196, 147) inset;
+}
+
+.btnshadowTop {
+    box-shadow: 0 14px 10px -8px rgb(69, 196, 147) inset;
+}
+
+.btnshadowLeft {
+    box-shadow: 14px 0 10px -8px rgb(69, 196, 147) inset;
+}
